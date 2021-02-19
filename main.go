@@ -17,10 +17,10 @@ func main() {
 	// cards := newDeck()
 	//passing deck type of string cards to receiver of saveToFile to write to file
 	//passing filename string into function to specify the filename to write
-	// cards.saveToFile("my_cards")
+	// cards.savfeToFile("my_cards")
 
 	//new deck of cards
-	cards := readDeckFromFile("my_cards")
+	cards := newDeckFromFile("my_cards")
 	cards.shuffle()
 	cards.print()
 }

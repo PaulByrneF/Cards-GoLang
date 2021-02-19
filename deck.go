@@ -58,7 +58,7 @@ func (d deck) saveToFile(filename string) error {
 }
 
 //Read deck from a file. Filename string as required argument to specify the file to read from.
-func readDeckFromFile(filename string) deck {
+func newDeckFromFile(filename string) deck {
 	byteSlice, err := ioutil.ReadFile(filename)
 
 	if err != nil {
